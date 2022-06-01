@@ -11,7 +11,8 @@ import SwiftUI
 struct PocketServiceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           ContentView()
+            
         }
     }
 }

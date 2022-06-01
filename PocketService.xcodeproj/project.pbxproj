@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CDA1452845152B0077417B /* LifeHacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA1442845152B0077417B /* LifeHacksView.swift */; };
+		23CDA1692846645A0077417B /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA1682846645A0077417B /* NoteView.swift */; };
+		23CDA16B2847B15B0077417B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA16A2847B15B0077417B /* MainView.swift */; };
 		23D2DFB72831CA3C00A77CEA /* PocketServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFB62831CA3C00A77CEA /* PocketServiceApp.swift */; };
 		23D2DFB92831CA3C00A77CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFB82831CA3C00A77CEA /* ContentView.swift */; };
 		23D2DFBB2831CA4400A77CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D2DFBA2831CA4400A77CEA /* Assets.xcassets */; };
 		23D2DFBE2831CA4400A77CEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D2DFBD2831CA4400A77CEA /* Preview Assets.xcassets */; };
+		23D2DFC52831CB0700A77CEA /* ChooseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFC42831CB0700A77CEA /* ChooseModel.swift */; };
+		23D2DFC72831CB1200A77CEA /* ChooseMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFC62831CB1200A77CEA /* ChooseMark.swift */; };
+		23D2DFC92831CCFE00A77CEA /* GenerateCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFC82831CCFE00A77CEA /* GenerateCar.swift */; };
+		23D2DFCB2831CD0A00A77CEA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFCA2831CD0A00A77CEA /* DataManager.swift */; };
+		23D2E00F2839306A00A77CEA /* TroubleShooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E00E2839306A00A77CEA /* TroubleShooting.swift */; };
+		23D2E0112839363B00A77CEA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E0102839363B00A77CEA /* InfoView.swift */; };
+		23D2E0132839416000A77CEA /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E0122839416000A77CEA /* CheckBoxView.swift */; };
+		23D2E015283D3D1700A77CEA /* MaintenanceItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E014283D3D1700A77CEA /* MaintenanceItems.swift */; };
+		23D2E017283D505100A77CEA /* ScrollableMileage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E016283D505100A77CEA /* ScrollableMileage.swift */; };
+		23D2E0392840E86900A77CEA /* CheckBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E0382840E86800A77CEA /* CheckBoxModel.swift */; };
+		23D2E03B2840F78400A77CEA /* DeleteIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2E03A2840F78400A77CEA /* DeleteIt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23CDA1442845152B0077417B /* LifeHacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksView.swift; sourceTree = "<group>"; };
+		23CDA1682846645A0077417B /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		23CDA16A2847B15B0077417B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		23D2DFB32831CA3C00A77CEA /* PocketService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D2DFB62831CA3C00A77CEA /* PocketServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketServiceApp.swift; sourceTree = "<group>"; };
 		23D2DFB82831CA3C00A77CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23D2DFBA2831CA4400A77CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23D2DFBD2831CA4400A77CEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23D2DFC42831CB0700A77CEA /* ChooseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseModel.swift; sourceTree = "<group>"; };
+		23D2DFC62831CB1200A77CEA /* ChooseMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMark.swift; sourceTree = "<group>"; };
+		23D2DFC82831CCFE00A77CEA /* GenerateCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateCar.swift; sourceTree = "<group>"; };
+		23D2DFCA2831CD0A00A77CEA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		23D2E00E2839306A00A77CEA /* TroubleShooting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleShooting.swift; sourceTree = "<group>"; };
+		23D2E0102839363B00A77CEA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		23D2E0122839416000A77CEA /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		23D2E014283D3D1700A77CEA /* MaintenanceItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceItems.swift; sourceTree = "<group>"; };
+		23D2E016283D505100A77CEA /* ScrollableMileage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMileage.swift; sourceTree = "<group>"; };
+		23D2E0382840E86800A77CEA /* CheckBoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxModel.swift; sourceTree = "<group>"; };
+		23D2E03A2840F78400A77CEA /* DeleteIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteIt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,19 @@
 			children = (
 				23D2DFB62831CA3C00A77CEA /* PocketServiceApp.swift */,
 				23D2DFB82831CA3C00A77CEA /* ContentView.swift */,
+				23CDA16A2847B15B0077417B /* MainView.swift */,
+				23D2DFC62831CB1200A77CEA /* ChooseMark.swift */,
+				23D2DFC42831CB0700A77CEA /* ChooseModel.swift */,
+				23D2E0122839416000A77CEA /* CheckBoxView.swift */,
+				23D2E0382840E86800A77CEA /* CheckBoxModel.swift */,
+				23D2E016283D505100A77CEA /* ScrollableMileage.swift */,
+				23CDA1442845152B0077417B /* LifeHacksView.swift */,
+				23D2E014283D3D1700A77CEA /* MaintenanceItems.swift */,
+				23D2E00E2839306A00A77CEA /* TroubleShooting.swift */,
+				23CDA1682846645A0077417B /* NoteView.swift */,
+				23D2E0102839363B00A77CEA /* InfoView.swift */,
+				23D2DFCD2832E31B00A77CEA /* Model */,
+				23D2DFCC2832E30C00A77CEA /* Data */,
 				23D2DFBA2831CA4400A77CEA /* Assets.xcassets */,
 				23D2DFBC2831CA4400A77CEA /* Preview Content */,
 			);
@@ -65,6 +106,23 @@
 				23D2DFBD2831CA4400A77CEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23D2DFCC2832E30C00A77CEA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				23D2E03A2840F78400A77CEA /* DeleteIt.swift */,
+				23D2DFCA2831CD0A00A77CEA /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		23D2DFCD2832E31B00A77CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23D2DFC82831CCFE00A77CEA /* GenerateCar.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D2E0112839363B00A77CEA /* InfoView.swift in Sources */,
+				23D2DFC52831CB0700A77CEA /* ChooseModel.swift in Sources */,
+				23D2E00F2839306A00A77CEA /* TroubleShooting.swift in Sources */,
+				23D2DFCB2831CD0A00A77CEA /* DataManager.swift in Sources */,
+				23D2E015283D3D1700A77CEA /* MaintenanceItems.swift in Sources */,
+				23D2E0132839416000A77CEA /* CheckBoxView.swift in Sources */,
 				23D2DFB92831CA3C00A77CEA /* ContentView.swift in Sources */,
+				23D2E017283D505100A77CEA /* ScrollableMileage.swift in Sources */,
+				23D2E03B2840F78400A77CEA /* DeleteIt.swift in Sources */,
+				23CDA16B2847B15B0077417B /* MainView.swift in Sources */,
+				23CDA1452845152B0077417B /* LifeHacksView.swift in Sources */,
+				23D2DFC92831CCFE00A77CEA /* GenerateCar.swift in Sources */,
+				23CDA1692846645A0077417B /* NoteView.swift in Sources */,
 				23D2DFB72831CA3C00A77CEA /* PocketServiceApp.swift in Sources */,
+				23D2E0392840E86900A77CEA /* CheckBoxModel.swift in Sources */,
+				23D2DFC72831CB1200A77CEA /* ChooseMark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +355,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,7 +383,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
