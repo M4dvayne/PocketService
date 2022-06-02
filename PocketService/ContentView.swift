@@ -11,23 +11,14 @@ struct ContentView: View {
     let chooseCar = Car.carList()
     
     var body: some View {
-            TabView{
-                ChooseMark(cars: chooseCar)
-                    .tabItem{
-                        Image(systemName: "car.fill")
-                        Text("My Car")
-                    }
-                    
-                TroubleShooting()
-                    .tabItem{
-                        Image(systemName: "gearshape.circle.fill")
-                        Text("Info")
-                    }
+        NavigationView {
+            VStack {
+                LinkToChooseCarView()
+                LinkToMilleageView()
+                LinkToLifeHacksView()
+                LinkToNoteView()
             }
-           
-       
-           
-            
+        }
     }
 }
 
@@ -36,3 +27,24 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//
+//TabView{
+//    ChooseMark(cars: chooseCar)
+//        .tabItem{
+//            Image(systemName: "car.fill")
+//            Text("My Car")
+//        }
+//
+//    TroubleShooting()
+//        .tabItem{
+//            Image(systemName: "gearshape.circle.fill")
+//            Text("Info")
+//        }
+//}
+
+//NavigationView {
+//    NavigationLink(destination: ScrollableMileage()) {
+//        MainView()
+//    }
+//}

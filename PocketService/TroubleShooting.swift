@@ -8,16 +8,10 @@
 import SwiftUI
 
 struct TroubleShooting: View {
-    let infoDirectory = ["Engine", "CoolingSystem", "Troubleshooting"]
+   // let infoDirectory = ["Engine", "CoolingSystem", "Troubleshooting"]
     var body: some View {
-        NavigationView{
-            NavigationLink(destination: InfoView(info: infoDirectory)){
-                VStack {
-                    Text("Engine")
-                    Text("CoolingSystem")
-                    Text("TroubleShooting")
-                }
-            }
+        VStack {
+            Text("")
         }
     }
 }

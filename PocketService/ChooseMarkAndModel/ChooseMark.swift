@@ -12,7 +12,7 @@ struct ChooseMark: View {
     let cars: [Car]
     
     var body: some View {
-        NavigationView{
+       // NavigationView{
             List(cars) {car in
                 NavigationLink(destination: ChooseModel(car: car.carModel)) {
                     Text("\(car.carMark)")
@@ -21,7 +21,8 @@ struct ChooseMark: View {
             }
             .listStyle(.plain)
             .navigationBarTitle("Car List")
-        }
+//        }
+//       Spacer()
     }
 }
 

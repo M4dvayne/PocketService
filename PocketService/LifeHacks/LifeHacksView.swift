@@ -26,7 +26,7 @@ struct LifeHacksView_Previews: PreviewProvider {
 
 
 struct LifeHacks: Identifiable {
-    var title: String? = nil
+    var title: String? 
     var icon: String?
     let id = UUID()
     

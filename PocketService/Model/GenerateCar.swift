@@ -61,7 +61,6 @@ struct Car: Identifiable, Hashable {
     }
 }
 
-
 struct MaintenanceItem {
     let beltItem = "Belt"
     let engineItem = "Engine"
@@ -73,4 +72,86 @@ struct MaintenanceItem {
     let ignitionItem = "Ignition"
     let coolingItem = "Cooling"
     let wheelsItem = "Wheels"
+}
+
+
+
+
+
+
+
+
+
+//struct TroubleShootingModel {
+//    let coolingSystem: String //= "Система охлаждения"
+//    let coolingSystemDescription: String
+//
+//    let engineSystem: String //= "Двигатель"
+//    let engineSystemDescription: String
+//
+//    let transmissionSystem: String //= "Трансмиссия"
+//    let transmissionSystemDescription: String
+//
+//    let steering: String //= "Рулевое управление"
+//    let steeringDescription: String
+//
+//    let breakingSystem: String //= "Система торможения"
+//    let breakingSystemDescription: String
+//
+//
+//    let electricalSystem: String //= "Электрооборудование"
+//    let electricalSystemDescription: String
+//
+//    let chassisSystem: String //= "Ходовая часть"
+//    let chassisSystemDescription: String
+//
+//    let commonTroubles: String //= "Общие неисправности"
+//    let commonTroublesDescription: String
+//
+//
+//
+//    static func getSolution() -> [TroubleShootingModel] {
+//       [
+//       TroubleShootingModel(
+//        coolingSystem: <#T##String#>,
+//        coolingSystemDescription: <#T##String#>,
+//        engineSystem: <#T##String#>,
+//        engineSystemDescription: <#T##String#>,
+//        transmissionSystem: <#T##String#>,
+//        transmissionSystemDescription: <#T##String#>,
+//        steering: <#T##String#>,
+//        steeringDescription: <#T##String#>,
+//        breakingSystem: <#T##String#>,
+//        breakingSystemDescription: <#T##String#>,
+//        electricalSystem: <#T##String#>,
+//        electricalSystemDescription: <#T##String#>,
+//        chassisSystem: <#T##String#>,
+//        chassisSystemDescription: String ,
+//        commonTroubles: <#T##String#>,
+//        commonTroublesDescription: <#T##String#>)
+//       ]
+//    }
+//}
+//
+//
+struct Troubles {
+    let title: String?
+    let icon: String
+    var description: String?
+    let id = UUID()
+    var troubles: [Troubles]?
+    
+    static func getTroubles() -> [Troubles] {
+        return [
+        Troubles(title: "Система охлаждения",
+                 icon: "image",
+                 description: nil,
+                 troubles: [
+        Troubles(title: "Перегрев двигателя", icon: "image", description: "описание"),
+        Troubles(title: "Переохлаждение двигателя", icon: "image", description: "jgbcfybt"),
+        Troubles(title: "Утечка охлаждающей жидкости наружу", icon: "image", description: "jgbcfybt"),
+        Troubles(title: "Утечка охлаждающей жидкости внутрь", icon: "image", description: "jgbcfybt")
+        ])
+        ]
+    }
 }
