@@ -9,41 +9,22 @@ import SwiftUI
 //создать модель
 struct MainView: View {
     var body: some View {
-            ScrollView(.vertical){
-                VStack(spacing: 80) {
-                    HStack(spacing: 100){
-                        VStack{
-                            Image("car-27-64")
-                            Text("My Car")
-                        }
-                        VStack {
-                            Image("speedometer-64")
-                            Text("Milleage")
-                        }
-                    }
-                    HStack(spacing: 100){
-                        VStack{
-                            Image("checked-checkbox-64")
-                            Text("My Car")
-                        }
-                        VStack {
-                            Image("question-mark-64")
-                            Text("My Car")
-                        }
-                    }
-                    HStack(spacing: 100){
-                        VStack{
-                            Image("settings-25-64")
-                            Text("My Car")
-                        }
-                        VStack {
-                            Image("paper-64")
-                            Text("My Car")
-                        }
-                    }
+        NavigationView {
+            VStack(spacing: 90) {
+                HStack(spacing: 50) {
+                    LinkToChooseCarView()
+                    LinkToMilleageView()
+                }
+                HStack(spacing: 50){
+                    LinkToLifeHacksView()
+                    LinkToTroubleShootingView()
+                }
+                HStack {
+                    LinkToNoteView()
                 }
             }
-        
+            .padding()
+        }
     }
 }
 

@@ -15,6 +15,8 @@
 		23CDA1732848F7C80077417B /* LinkToChooseCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA1722848F7C80077417B /* LinkToChooseCarView.swift */; };
 		23CDA1772848FDCC0077417B /* LinkToLifeHacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA1762848FDCC0077417B /* LinkToLifeHacksView.swift */; };
 		23CDA17A2849037D0077417B /* LinkToNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA1792849037D0077417B /* LinkToNoteView.swift */; };
+		23CDA17D284AA0EC0077417B /* FillInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA17C284AA0EC0077417B /* FillInfoView.swift */; };
+		23CDA17F284B857A0077417B /* LinkToTroubleShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDA17E284B857A0077417B /* LinkToTroubleShootingView.swift */; };
 		23D2DFB72831CA3C00A77CEA /* PocketServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFB62831CA3C00A77CEA /* PocketServiceApp.swift */; };
 		23D2DFB92831CA3C00A77CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2DFB82831CA3C00A77CEA /* ContentView.swift */; };
 		23D2DFBB2831CA4400A77CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D2DFBA2831CA4400A77CEA /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		23CDA1722848F7C80077417B /* LinkToChooseCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkToChooseCarView.swift; sourceTree = "<group>"; };
 		23CDA1762848FDCC0077417B /* LinkToLifeHacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkToLifeHacksView.swift; sourceTree = "<group>"; };
 		23CDA1792849037D0077417B /* LinkToNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkToNoteView.swift; sourceTree = "<group>"; };
+		23CDA17C284AA0EC0077417B /* FillInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInfoView.swift; sourceTree = "<group>"; };
+		23CDA17E284B857A0077417B /* LinkToTroubleShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkToTroubleShootingView.swift; sourceTree = "<group>"; };
 		23D2DFB32831CA3C00A77CEA /* PocketService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D2DFB62831CA3C00A77CEA /* PocketServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketServiceApp.swift; sourceTree = "<group>"; };
 		23D2DFB82831CA3C00A77CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 			path = Note;
 			sourceTree = "<group>";
 		};
+		23CDA180284B90840077417B /* TroubleShooting */ = {
+			isa = PBXGroup;
+			children = (
+				23CDA17E284B857A0077417B /* LinkToTroubleShootingView.swift */,
+				23D2E00E2839306A00A77CEA /* TroubleShooting.swift */,
+			);
+			path = TroubleShooting;
+			sourceTree = "<group>";
+		};
 		23D2DFAA2831CA3C00A77CEA = {
 			isa = PBXGroup;
 			children = (
@@ -130,14 +143,15 @@
 			children = (
 				23D2DFB62831CA3C00A77CEA /* PocketServiceApp.swift */,
 				23D2DFB82831CA3C00A77CEA /* ContentView.swift */,
-				23CDA178284903230077417B /* LifeHacks */,
 				23CDA16A2847B15B0077417B /* MainView.swift */,
+				23CDA178284903230077417B /* LifeHacks */,
 				23CDA17B284903A40077417B /* Note */,
 				23CDA1742848FC2B0077417B /* Milleage */,
 				23CDA1752848FC400077417B /* ChooseMarkAndModel */,
 				23CDA16C2847BCFB0077417B /* UserCarView.swift */,
+				23CDA17C284AA0EC0077417B /* FillInfoView.swift */,
+				23CDA180284B90840077417B /* TroubleShooting */,
 				23D2E0382840E86800A77CEA /* CheckBoxModel.swift */,
-				23D2E00E2839306A00A77CEA /* TroubleShooting.swift */,
 				23D2E0102839363B00A77CEA /* InfoView.swift */,
 				23D2DFCD2832E31B00A77CEA /* Model */,
 				23D2DFCC2832E30C00A77CEA /* Data */,
@@ -245,6 +259,7 @@
 				23D2E0112839363B00A77CEA /* InfoView.swift in Sources */,
 				23D2DFC52831CB0700A77CEA /* ChooseModel.swift in Sources */,
 				23D2E00F2839306A00A77CEA /* TroubleShooting.swift in Sources */,
+				23CDA17F284B857A0077417B /* LinkToTroubleShootingView.swift in Sources */,
 				23CDA17A2849037D0077417B /* LinkToNoteView.swift in Sources */,
 				23D2DFCB2831CD0A00A77CEA /* DataManager.swift in Sources */,
 				23D2E015283D3D1700A77CEA /* MaintenanceItems.swift in Sources */,
@@ -255,6 +270,7 @@
 				23CDA17128482A150077417B /* LinkToMilleageView.swift in Sources */,
 				23CDA1772848FDCC0077417B /* LinkToLifeHacksView.swift in Sources */,
 				23CDA16B2847B15B0077417B /* MainView.swift in Sources */,
+				23CDA17D284AA0EC0077417B /* FillInfoView.swift in Sources */,
 				23CDA1452845152B0077417B /* LifeHacksView.swift in Sources */,
 				23CDA16D2847BCFB0077417B /* UserCarView.swift in Sources */,
 				23D2DFC92831CCFE00A77CEA /* GenerateCar.swift in Sources */,

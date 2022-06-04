@@ -9,16 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     let chooseCar = Car.carList()
+    @State private var inputText: String = ""
     
     var body: some View {
-        NavigationView {
-            VStack {
-                LinkToChooseCarView()
-                LinkToMilleageView()
-                LinkToLifeHacksView()
-                LinkToNoteView()
-            }
-        }
+        MainView()
     }
 }
 

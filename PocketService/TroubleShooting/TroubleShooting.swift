@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct TroubleShooting: View {
-   // let infoDirectory = ["Engine", "CoolingSystem", "Troubleshooting"]
+    let troubles = Troubles.getTroubles()
+    
     var body: some View {
-        VStack {
-            Text("")
+        List(troubles, children: \.troubles) { trouble in
+           // Image(systemName: "circle")
+            Text(trouble.title ?? "")
         }
     }
 }

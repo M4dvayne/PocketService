@@ -23,8 +23,9 @@ struct MaintenanceItems: View {
                 Text(maintenanceItem.filterItem)
                 Text(maintenanceItem.fuelItem)
         }
-        .frame(width: 70, height: 500)
-        .overlay(RoundedRectangle(cornerRadius: 10) .stroke(lineWidth: 2))
+        .frame(width: 70, height: 400)
+        //.overlay(RoundedRectangle(cornerRadius: 7) .stroke(lineWidth: 1))
+       // .background(Color.gray)
         .padding(EdgeInsets(top: 60, leading: 0, bottom: 20, trailing: 230))
     }
 }

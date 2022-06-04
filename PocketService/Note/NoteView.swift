@@ -11,12 +11,10 @@ struct NoteView: View {
     @State private var userNote: String = "Type your note"
     
     var body: some View {
-        NavigationView{
             TextEditor(text: $userNote)
                 .font(.title)
                 .foregroundColor(.green)
                 .navigationTitle("Мои заметки")
-        }
     }
 }
 struct NoteView_Previews: PreviewProvider {

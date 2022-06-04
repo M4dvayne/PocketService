@@ -30,15 +30,11 @@ struct ScrollableMileage: View {
                     .font(.callout)
                     CheckBoxView()
                 }
-                
             }
             .offset(x: 100)
-            
         }
-       
         
     }
-    
 }
 
 
